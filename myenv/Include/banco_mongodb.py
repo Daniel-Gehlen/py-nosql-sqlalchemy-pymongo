@@ -4,7 +4,7 @@ import pymongo
 
 # Conectando ao MongoDB Atlas
 client = pymongo.MongoClient(
-    "mongodb+srv://harmonia:<password>@cluster0.2efxeaz.mongodb.net/")
+    "mongodb+srv://pymongo:<password>@cluster0.2efxeaz.mongodb.net/")
 db = client.test
 
 # Definindo a coleção 'bank' para os documentos de clientes
